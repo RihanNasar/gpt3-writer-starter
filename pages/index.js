@@ -17,7 +17,7 @@ const handleChange = (e) => {
 }
 const callGenerateEndpoint = async (e) => {
   e.preventDefault()
-  setShow('block flex flex-col justify-center items-center shrink-0 w-full text-center')
+  setShow('block flex flex-col justify-center items-center shrink-0 w-full text-center mb-12')
   setIsGenerating(false);
   
   console.log("Calling OpenAI...")
