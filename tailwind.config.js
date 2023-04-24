@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,7 +15,7 @@ module.exports = {
       'sm': '340px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '768px',
+      'md': '600px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',

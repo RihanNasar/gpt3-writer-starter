@@ -26,7 +26,7 @@ const generateAction = async (req, res) => {
   // I build Prompt #2.
   const secondPrompt = 
   `
-  Take the careers listed below and write a detailed discription on why you think that it would be good for me and also give me good free and paid online resources that will help me excel in that career.make sure to give atleast more than 6 results and also write summaries for the courses.
+  Take the careers listed below and write a detailed discription in a very humorous and funny tone like jim carrey for a person ${req.body.change} on why you think that it would be good for him/her and also give him/her good free and paid online resources that will help him/her excel in that career.make sure to give atleast more than 6 results and also write summaries for the courses.
 
   Skills: ${req.body.userInput}
 
