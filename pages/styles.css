@@ -1,7 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+* {
+    margin: 0;
+    
+    padding: 0;
+}
+body {
+    background: #000;
+}
 .output {
     place-content: center flex-start;
     align-items: center;
