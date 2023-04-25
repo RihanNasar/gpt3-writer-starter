@@ -12,6 +12,8 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@material-tailwind/react": "^1.4.2",
+    "@supabase/auth-helpers-nextjs": "^0.6.1",
+    "@supabase/supabase-js": "^2.21.0",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^6.5.1",
